@@ -2064,8 +2064,7 @@ dependencies = [
 [[package]]
 name = "imap-client"
 version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "39a6e7b1eb0ba05eb1b328583cc36e132acc4ef18a171c9f261b6a854cbb385d"
+source = "git+https://github.com/pimalaya/io-imap#620d0c46c306e2a208df9f3c08ed500403bd08b7"
 dependencies = [
  "imap-next",
  "rip-starttls",
